@@ -1,15 +1,15 @@
-# **Java Boot Camp Accenture**
-### **Information**
+# Java Boot Camp Accenture
+## Information
 - A condensed knowledge transfer of Java and Backend development experience
 - AM & PM Sessions for 4 weeks
 - **No charge code**
-### **Goals / Benefits**
+## Goals / Benefits
 - Get a better view of the Java and backend development landscape and see if it is for you
 - A place to read code, write code, and have guided practice along with other people
 - Have a repository of multiple code examples that you made / collaborated with others
 - Feel prepared for your first Java role
 - A place to practice doing technical presentation / code walkthroughs
-### **AM Meeting Structure (1 hour)**
+## AM Meeting Structure (1 hour)
 **First half (30 mins)** 
 - Discuss the subject of the day
 - Live demo with Java regarding the subject
@@ -17,18 +17,16 @@
 **Second half (30 mins)** 
 - Provide hands-on
 - Questions and answers
-### **During The Day Recommendation**
+## During The Day Recommendation
 - Work through hands-on and complete it when possible
 - Upload to your own repository, write, and collect a lot code
 - Explore the subject further and allow yourself to be curious
 - Reach out for questions
-### **PM Meeting Structure (1 hour)**
+## PM Meeting Structure (1 hour)
 Have participants do code walkthroughs - opportunity to practice communication and technical presentation skills with no evaluation, and no judgement
-### **GitHub Repository**
-We will use this following repository stored in Github to share problems and solutions - https://github.com/jfsaaved
 
 ---
-### **Week 1 – Introduction to Coding (Language-Agnostic Concepts with Java)**
+## Week 1 – Introduction to Coding (Language-Agnostic Concepts with Java)
 
 | Day | Subject                                                                                                                                                                                                                                                          | Subject In Java                                                                                                                                                                                                                                                                                                                                    | Link To Worksheet |
 | --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
@@ -38,7 +36,7 @@ We will use this following repository stored in Github to share problems and sol
 | Fri | **Data, Basic Data Structures, and Algorithms**                                                                                                                                                                                                                  | - Creating our own data structure                                                                                                                                                                                                                                                                                                                  |                   |
 
 ---
-### **Week 2 – Java & OOP**
+## Week 2 – Java & OOP
 
 | Day | Subject                                                                  | Subject In Java                                                                                                                                | Link To Worksheet |
 | --- | ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
@@ -49,27 +47,26 @@ We will use this following repository stored in Github to share problems and sol
 | Fri | **Streams and Lambda**                                                   | - Example of a stream                                                                                                                          |                   |
 
 ---
-### **Week 3 – Java, Spring Boot, and Backend Pt. 1**
+## Week 3 – Java, Spring Boot, and Backend Pt. 1
 
 | Day | Subject                                                        | Subject In Java                                                                                                                                 | Link To Worksheet |
 | --- | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
 | Mon | **Architecture Overview - Microservice and Monolith**          | - Show applications in the form of microservice and monolith                                                                                    |                   |
 | Tue | **Frameworks and Build Management**                            | - Explore available frameworks in Java landscape<br>- Spring & Spring Boot<br>- Introduce maven and mvn commands for previously covered subject |                   |
-| Fri | **Inversion of Control and Dependency Injection**              | - @Component, @Autowired, @Service, etc.                                                                                                        |                   |
-| Wed | **Bean Creation**                                              | - @Configruation and @Bean                                                                                                                      |                   |
-| Thu | **Environments, Environment Variables and Property Injection** | - Environments<br>- @Value and application.yml / application.properties                                                                         |                   |
-
-
----
-
-### **Week 4 – Java, Spring Boot, and Backend Pt. 2**
-
-| Day | Subject                                                                       | Subject In Java                                                 | Link To Worksheet |
-| --- | ----------------------------------------------------------------------------- | --------------------------------------------------------------- | ----------------- |
-| Mon | **Creating RESTful API, HTTP methods, Controller-Service-Repository pattern** | - Creating a controller-service-repository pattern microservice |                   |
-| Tue | **Docker and Testcontainers**                                                 | - Utilizing Docker to hit our endpoints                         |                   |
-| Wed | **SQL and Relational Database Services**                                      | - Implement a database with microservice                        |                   |
-| Thu | **Calling RESTful API**                                                       | - RestTemplate<br>- Testing REST calls                          |                   |
-| Fri | **Final Demo and Bootcamp Closing**                                           |                                                                 |                   |
+| Wed | **Inversion of Control and Dependency Injection**              | - @Component, @Autowired, @Service, etc.                                                                                                        |                   |
+| Thu | **Bean Creation**                                              | - @Configruation and @Bean                                                                                                                      |                   |
+| Fri | **Environments, Environment Variables and Property Injection** | - Environments<br>- @Value and application.yml / application.properties                                                                         |                   |
 
 ---
+## Week 4 – Java, Spring Boot, and Backend Pt. 2
+
+| Day | Subject                                                                       | Subject In Java                                                 | Link To Worksheet |     |
+| --- | ----------------------------------------------------------------------------- | --------------------------------------------------------------- | ----------------- | --- |
+| Mon | **Creating RESTful API, HTTP methods, Controller-Service-Repository pattern** | - Creating a controller-service-repository pattern microservice |                   |     |
+| Tue | **Docker and Testcontainers**                                                 | - Utilizing Docker to hit our endpoints                         |                   |     |
+| Wed | **SQL and Relational Database Services**                                      | - Implement a database with microservice                        |                   |     |
+| Thu | **Calling RESTful API**                                                       | - RestTemplate<br>- Testing REST calls                          |                   |     |
+| Fri | **Final Demo and Bootcamp Closing**                                           |                                                                 |                   |     |
+
+---
+Next: [[GETTING_STARTED]]
