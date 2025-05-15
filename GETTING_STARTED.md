@@ -75,11 +75,12 @@ Verify:
 git --version
 ```
 
-## Alternatively: GitHub Desktop
+## Install GitHub Desktop (Alternative)
 
+1. Download from: https://desktop.github.com/download/
+2. Follow the installer instructions
 
 ---
-
 ## Verify All Tools
 
 ```bash
@@ -103,8 +104,6 @@ cd java-bootcamp-2025
 
 - Open the folder in IntelliJ
 - Import as a **Gradle/Maven project** if applicable
-- Look for the `WEEK-1` folder to get started!
+- Look for the `week-01-introduction-to-coding` folder to get started!
 
 ---
-
-Previous: [[README]] Next:
