@@ -28,44 +28,44 @@ Have participants do code walkthroughs - opportunity to practice communication a
 ---
 ## Week 1 – Introduction to Coding (Language-Agnostic Concepts with Java)
 
-| Day | Subject                                                                                                                                                                                                                                                                                   | Subject In Java                                                                                                                                                                                                                                                                                                                                    | Link To Worksheet |
-| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
-| Tue | **Setting Up Environment** <br><br>- Explain the bootcamp<br>- Mental map of bootcamp<br>- What is a programming language? Why Java?<br>- Programming diagram<br>- Explaining TDD, show example<br><br>- Hello World! Example<br><br>**Functions, Parameters, Variables, and Data Types** | - Tools introductions<br>- Setting up environment - Java, IntelliJ, chocolatey, git version control<br>- Create hello world<br>- Show different ways to print<br><br>- Show data types examples, and how to print them<br>- Functions, pass-by-value vs pass-by-reference<br>- Explain format moving forward for the rest of the sessions with TDD |                   |
-| Wed | **Operators, Expressions, and Conditionals**                                                                                                                                                                                                                                              | - ++, --, +, -, ==, \|\|, !=, %<br>if, if/else, if,else if, switch<br>                                                                                                                                                                                                                                                                             |                   |
-| Thu | **Loops<br>**                                                                                                                                                                                                                                                                             | - for, while, do while<br>                                                                                                                                                                                                                                                                                                                         |                   |
-| Fri | **Data, Basic Data Structures, and Algorithms**                                                                                                                                                                                                                                           | - Creating our own data structure                                                                                                                                                                                                                                                                                                                  |                   |
+| Day | Subject                                                                      | Link                                                                                                                                       |
+| --- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Tue | **Setting Up Environment, Functions, Parameters, Variables, and Data Types** | [Day 01 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-01-introduction-to-coding/src/main/java/org/accenture/day01) |
+| Wed | **Operators, Expressions, and Conditionals**                                 | [Day 02 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-01-introduction-to-coding/src/main/java/org/accenture/day02) |
+| Thu | **Loops<br>**                                                                | [Day 03 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-01-introduction-to-coding/src/main/java/org/accenture/day03) |
+| Fri | **Data, Basic Data Structures, and Algorithms**                              | [Day 04 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-01-introduction-to-coding/src/main/java/org/accenture/day04) |
 
 ---
 ## Week 2 – Java & OOP
 
-| Day | Subject                                                                  | Subject In Java                                                                                                                                | Link To Worksheet |
-| --- | ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
-| Mon | **Overview OOP (Encapsulation, Inheritance, Polymorphism, Abstraction)** | - Classes & Objects, Fields, Methods<br>- Constructors, getters, setters, this<br>- extends, super<br>- override methods<br>- abstract classes |                   |
-| Tue | **Exceptions and Error Handling**<br><br>                                | - How to read stack trace and how to handle exceptions<br>- How to use debug                                                                   |                   |
-| Wed | **Core Java Libraries, and Core Java Documentations**<br>                | - java.lang<br>- java.util<br>- java.time<br>- java.io                                                                                         |                   |
-| Thu | **Threads and Mutability**                                               | - Show examples of mutability, and what it means to have a pure function                                                                       |                   |
-| Fri | **Streams and Lambda**                                                   | - Example of a stream                                                                                                                          |                   |
+| Day | Subject                                                                  | Link To Worksheet |
+| --- | ------------------------------------------------------------------------ | ----------------- |
+| Mon | **Overview OOP (Encapsulation, Inheritance, Polymorphism, Abstraction)** |                   |
+| Tue | **Exceptions and Error Handling**<br><br>                                |                   |
+| Wed | **Core Java Libraries, and Core Java Documentations**<br>                |                   |
+| Thu | **Threads and Mutability**                                               |                   |
+| Fri | **Streams and Lambda**                                                   |                   |
 
 ---
 ## Week 3 – Java, Spring Boot, and Backend Pt. 1
 
-| Day | Subject                                                                                 | Subject In Java                                                                                                                                                                                                 | Link To Worksheet |
-| --- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
-| Mon | **Architecture Overview (Microservice vs. Monolith), Frameworks, and Build Management** | - Show applications in the form of microservice and monolith<br>- Explore available frameworks in Java landscape<br>- Spring & Spring Boot<br>- Introduce maven and mvn commands for previously covered subject |                   |
-| Tue | **Inversion of Control and Dependency Injection**                                       | - @Component, @Autowired, @Service, etc.                                                                                                                                                                        |                   |
-| Wed | **Bean Creation**                                                                       | - @Configruation and @Bean                                                                                                                                                                                      |                   |
-| Thu | **Environments, Environment Variables and Property Injection**                          | - Environments<br>- @Value and application.yml / application.properties                                                                                                                                         |                   |
-| Fri | **Creating RESTful API, HTTP methods, Controller-Service-Repository pattern**           | - Creating a controller-service-repository pattern microservice                                                                                                                                                 |                   |
+| Day | Subject                                                                                 | Link To Worksheet |
+| --- | --------------------------------------------------------------------------------------- | ----------------- |
+| Mon | **Architecture Overview (Microservice vs. Monolith), Frameworks, and Build Management** |                   |
+| Tue | **Inversion of Control and Dependency Injection**                                       |                   |
+| Wed | **Bean Creation**                                                                       |                   |
+| Thu | **Environments, Environment Variables and Property Injection**                          |                   |
+| Fri | **Creating RESTful API, HTTP methods, Controller-Service-Repository pattern**           |                   |
 
 ---
 ## Week 4 – Java, Spring Boot, and Backend Pt. 2
 
-| Day | Subject                               | Subject In Java                                         | Link To Worksheet |     |
-| --- | ------------------------------------- | ------------------------------------------------------- | ----------------- | --- |
-| Mon | **Docker and Testcontainers**         | - Utilizing Docker to hit our endpoints                 |                   |     |
-| Tue | **Spring Data and Database Services** | - Implement a database with microservice                |                   |     |
-| Wed | **Calling RESTful API**               | - RestTemplate<br>- Testing REST calls                  |                   |     |
-| Thu | **Spring Security**                   | - Implementing a UAA server with Spring Boot<br>- How t |                   |     |
-| Fri | **Final Demo and Bootcamp Closing**   |                                                         |                   |     |
+| Day | Subject                               | Link To Worksheet |
+| --- | ------------------------------------- | ----------------- |
+| Mon | **Docker and Testcontainers**         |                   |
+| Tue | **Spring Data and Database Services** |                   |
+| Wed | **Calling RESTful API**               |                   |
+| Thu | **Spring Security**                   |                   |
+| Fri | **Final Demo and Bootcamp Closing**   |                   |
 
 ---
