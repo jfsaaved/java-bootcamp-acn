@@ -3,6 +3,12 @@
 This guide covers all looping mechanisms in Java, from basic usage to subtle behaviors and important best practices.
 
 ---
+## Additional Resources
+
+### Free Resources
+[Loops in Java - programiz](https://www.programiz.com/java-programming/for-loop)    
+
+---
 ## 1. Types of Loops in Java
 
 ### For Loop

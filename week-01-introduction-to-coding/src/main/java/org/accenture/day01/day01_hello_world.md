@@ -5,6 +5,8 @@ Overview of Java, IntelliJ IDEA, and Test-Driven Development
 ---
 ## Additional Resources
 ### Free Resources
+[Java Program Lifecycle - startertutorials](https://www.startertutorials.com/corejava/life-cycle-java-program.html)     
+[How JVM Executes Java Code - cesarotovalero](https://www.cesarsotovalero.net/blog/how-the-jvm-executes-java-code.html)     
 [Java Full Course for Beginners](https://www.youtube.com/watch?v=eIrMbAQSU34)     
 [Introduction to Java by HyperSkill](https://hyperskill.org/courses/8)    
 [Java Basics - w3schools](https://www.w3schools.com/java/)    

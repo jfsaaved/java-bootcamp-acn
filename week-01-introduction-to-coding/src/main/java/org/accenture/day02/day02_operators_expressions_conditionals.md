@@ -3,7 +3,13 @@
 This guide covers **conditionals**, **expressions**, and **operators** in Java — from the basics to hidden behaviors and best practices.
 
 ---
+## Additional Resources
 
+### Free Resources
+[What are Conditionals - how.dev](https://how.dev/answers/what-are-conditional-statements-in-programming)    
+[Java Math Operators - jenkov](https://jenkov.com/tutorials/java/math-operators-and-math-class.html)    
+
+---
 ## 1. Java Expressions
 
 ### What is an Expression?
