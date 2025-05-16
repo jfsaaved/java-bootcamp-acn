@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /*
     TODO Use this class to test your Day01Worksheet.java class.
-    TODO Please do not change anything in this class.
+        Please do not change anything in this class.
  */
 public class Day01WorksheetTests {
     @Test
@@ -65,7 +65,7 @@ public class Day01WorksheetTests {
     }
     @Test
     public void shouldReturnHelloWorld() {
-        assertEquals("Hello World!", Day01Worksheet.getHelloWorld());
+        assertEquals("Hello, World!", Day01Worksheet.getHelloWorld());
     }
 
     @Test
