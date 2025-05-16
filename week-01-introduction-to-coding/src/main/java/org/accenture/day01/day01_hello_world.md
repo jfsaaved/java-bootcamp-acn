@@ -3,6 +3,19 @@
 Overview of Java, IntelliJ IDEA, and Test-Driven Development
 
 ---
+## Additional Resources
+### Free Resources
+[Java Full Course for Beginners](https://www.youtube.com/watch?v=eIrMbAQSU34)     
+[Introduction to Java by HyperSkill](https://hyperskill.org/courses/8)    
+[Java Basics - w3schools](https://www.w3schools.com/java/)    
+### Books
+[Head First Java](https://www.amazon.co.uk/Head-First-Java-3rd-Brain-Friendly/dp/1491910771)    
+[Thinking in Java](https://www.amazon.co.uk/Thinking-Java-Eckel-Bruce-February/dp/B00IBON6C6)    
+[Effective Java](https://www.amazon.com/Effective-Java-Joshua-Bloch/dp/0134685997)    
+[Java: A Beginner's Guide](https://www.amazon.co.uk/Java-Beginners-Guide-Herbert-Schildt/dp/1260463559)    
+[Java: The Complete Reference](https://www.amazon.co.uk/gp/product/B09JL8BMK7/ref=dbs_a_def_rwt_bibl_vppi_i2)    
+
+---
 ## Why Learn the Java Programming Language?
 
 - Over **9 million developers** use Java worldwide.

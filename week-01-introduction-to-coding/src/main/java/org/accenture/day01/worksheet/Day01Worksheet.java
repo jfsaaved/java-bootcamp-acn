@@ -5,14 +5,6 @@ package org.accenture.day01.worksheet;
         You are welcome to change anything in this class.
     */
 public class Day01Worksheet {
-
-    /*
-     TODO Describe the following:
-         High-Level Programming -
-         Java Virtual Machine (JVM) -
-         Java Garbage Collector (GC) -
-         javac (Java compiler) -
-    */
     public static int getFixedInteger() {
         return 0;
     }

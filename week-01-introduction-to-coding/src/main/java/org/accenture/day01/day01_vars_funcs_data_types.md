@@ -3,7 +3,17 @@
 This guide covers the most important foundational concepts in Java: **functions (methods)**, **variables**, and **data types**. Understanding these sets you up for almost everything else you'll do in Java.
 
 ---
+## Additional Resources
 
+### Free Resources
+[Java Language Basics - Official](https://dev.java/learn/language-basics/)    
+[Variables - jenkov](https://jenkov.com/tutorials/java/variables.html)    
+[Data Types - jenkov](https://jenkov.com/tutorials/java/data-types.html)    
+[Strings & Methods - jenkov](https://jenkov.com/tutorials/java/strings.html)    
+[Variable Scopes - Baeldung](https://www.baeldung.com/java-variable-scope)    
+[Type Casting - simplilearn](https://www.simplilearn.com/tutorials/java-tutorial/type-casting-in-java)    
+
+---
 ## 1. Variables in Java
 
 ### What is a Variable?

@@ -49,23 +49,23 @@ Have participants do code walkthroughs - opportunity to practice communication a
 ---
 ## Week 3 – Java, Spring Boot, and Backend Pt. 1
 
-| Day | Subject                                                        | Subject In Java                                                                                                                                 | Link To Worksheet |
-| --- | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
-| Mon | **Architecture Overview - Microservice and Monolith**          | - Show applications in the form of microservice and monolith                                                                                    |                   |
-| Tue | **Frameworks and Build Management**                            | - Explore available frameworks in Java landscape<br>- Spring & Spring Boot<br>- Introduce maven and mvn commands for previously covered subject |                   |
-| Wed | **Inversion of Control and Dependency Injection**              | - @Component, @Autowired, @Service, etc.                                                                                                        |                   |
-| Thu | **Bean Creation**                                              | - @Configruation and @Bean                                                                                                                      |                   |
-| Fri | **Environments, Environment Variables and Property Injection** | - Environments<br>- @Value and application.yml / application.properties                                                                         |                   |
+| Day | Subject                                                                                 | Subject In Java                                                                                                                                                                                                 | Link To Worksheet |
+| --- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
+| Mon | **Architecture Overview (Microservice vs. Monolith), Frameworks, and Build Management** | - Show applications in the form of microservice and monolith<br>- Explore available frameworks in Java landscape<br>- Spring & Spring Boot<br>- Introduce maven and mvn commands for previously covered subject |                   |
+| Tue | **Inversion of Control and Dependency Injection**                                       | - @Component, @Autowired, @Service, etc.                                                                                                                                                                        |                   |
+| Wed | **Bean Creation**                                                                       | - @Configruation and @Bean                                                                                                                                                                                      |                   |
+| Thu | **Environments, Environment Variables and Property Injection**                          | - Environments<br>- @Value and application.yml / application.properties                                                                                                                                         |                   |
+| Fri | **Creating RESTful API, HTTP methods, Controller-Service-Repository pattern**           | - Creating a controller-service-repository pattern microservice                                                                                                                                                 |                   |
 
 ---
 ## Week 4 – Java, Spring Boot, and Backend Pt. 2
 
-| Day | Subject                                                                       | Subject In Java                                                 | Link To Worksheet |     |
-| --- | ----------------------------------------------------------------------------- | --------------------------------------------------------------- | ----------------- | --- |
-| Mon | **Creating RESTful API, HTTP methods, Controller-Service-Repository pattern** | - Creating a controller-service-repository pattern microservice |                   |     |
-| Tue | **Docker and Testcontainers**                                                 | - Utilizing Docker to hit our endpoints                         |                   |     |
-| Wed | **SQL and Relational Database Services**                                      | - Implement a database with microservice                        |                   |     |
-| Thu | **Calling RESTful API**                                                       | - RestTemplate<br>- Testing REST calls                          |                   |     |
-| Fri | **Final Demo and Bootcamp Closing**                                           |                                                                 |                   |     |
+| Day | Subject                               | Subject In Java                                         | Link To Worksheet |     |
+| --- | ------------------------------------- | ------------------------------------------------------- | ----------------- | --- |
+| Mon | **Docker and Testcontainers**         | - Utilizing Docker to hit our endpoints                 |                   |     |
+| Tue | **Spring Data and Database Services** | - Implement a database with microservice                |                   |     |
+| Wed | **Calling RESTful API**               | - RestTemplate<br>- Testing REST calls                  |                   |     |
+| Thu | **Spring Security**                   | - Implementing a UAA server with Spring Boot<br>- How t |                   |     |
+| Fri | **Final Demo and Bootcamp Closing**   |                                                         |                   |     |
 
 ---
