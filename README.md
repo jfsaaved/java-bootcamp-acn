@@ -1,39 +1,40 @@
-# Java Boot Camp Accenture
+# Java Bootcamp Accenture
 ## Information
-- A condensed knowledge transfer of Java and Backend development experience
+- Repository that contains a lot of Java stuff for learning purposes
 - AM & PM Sessions for 4 weeks
 - **No charge code**
 ## Goals / Benefits
-- Get a better view of the Java and backend development landscape and see if it is for you
-- A place to read code, write code, and have guided practice along with other people
-- Have a repository of multiple code examples that you made / collaborated with others
-- Feel prepared for your first Java role
-- A place to practice doing technical presentation / code walkthroughs
-## AM Meeting Structure (1 hour)
-**First half (30 mins)** 
-- Discuss the subject of the day
-- Live demo with Java regarding the subject
+- Get a better view of the Java and backend development landscape
+- Java support group - read and write code with others
+- Repository with multiple examples, resources, and information
+- Feel prepared for Java roles
+- Place to practice technical / code walkthroughs
 
-**Second half (30 mins)** 
-- Provide hands-on
-- Questions and answers
+---
+## AM Meeting Structure (1 hour)
+Discuss the subject of the day / go through the code package
 ## During The Day Recommendation
-- Work through hands-on and complete it when possible
-- Upload to your own repository, write, and collect a lot code
-- Explore the subject further and allow yourself to be curious
+- Work through goals & hands-on
 - Reach out for questions
 ## PM Meeting Structure (1 hour)
-Have participants do code walkthroughs - opportunity to practice communication and technical presentation skills with no evaluation, and no judgement
+Open-mic technical / code presentations - present anything
+
+---
+## Hands-On Format: Test-Driven Development (TDD)
+TDD is a development process where you write tests _before_ you write the actual code.
+
+Hands-on idea:
+- Read unit tests and use hands-on worksheet class to make the tests pass
 
 ---
 ## Week 1 – Introduction to Coding (Language-Agnostic Concepts with Java)
 
-| Day | Subject                                                                      | Link                                                                                                                                       |
-| --- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| Tue | **Setting Up Environment, Functions, Parameters, Variables, and Data Types** | [Day 01 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-01-introduction-to-coding/src/main/java/org/accenture/day01) |
-| Wed | **Operators, Expressions, and Conditionals**                                 | [Day 02 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-01-introduction-to-coding/src/main/java/org/accenture/day02) |
-| Thu | **Loops<br>**                                                                | [Day 03 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-01-introduction-to-coding/src/main/java/org/accenture/day03) |
-| Fri | **Data, Basic Data Structures, and Algorithms**                              | [Day 04 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-01-introduction-to-coding/src/main/java/org/accenture/day04) |
+| Day | Subject                                                                              | Link                                                                                                                                       |
+| --- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Tue | **Setting Up Environment, Methods, Printing, Parameters, Variables, and Data Types** | [Day 01 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-01-introduction-to-coding/src/main/java/org/accenture/day01) |
+| Wed | **Operators, Expressions, and Conditionals**                                         | [Day 02 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-01-introduction-to-coding/src/main/java/org/accenture/day02) |
+| Thu | **Loops<br>**                                                                        | [Day 03 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-01-introduction-to-coding/src/main/java/org/accenture/day03) |
+| Fri | **Data, Basic Data Structures, and Algorithms**                                      | [Day 04 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-01-introduction-to-coding/src/main/java/org/accenture/day04) |
 
 ---
 ## Week 2 – Java & OOP

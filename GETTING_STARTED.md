@@ -1,21 +1,19 @@
-# Getting Started – Java Bootcamp Environment Setup
+# Getting Started (Windows) – Java Bootcamp Environment Setup
 
-This guide will help you set up your development environment.
+This guide will help you set up your development environment for Windows. For macOS / Linux there are just minor tweaks, please contact with contributor if help is needed.
 
 ---
 ## Requirements
 
 You will need to install the following:
 - Java Development Kit (JDK 8 or higher)
+	- The JDK is the **toolbox** in order to write, compile, and run Java programs
 - IntelliJ IDEA (other IDE is fine, demo is done through IntelliJ IDEA)
+	- An IDE is a **workspace** for writing, running, debugging programs
 - Git / GitHub Desktop
-- Optional: [Chocolatey](https://chocolatey.org/install) (Windows package manager)
-
----
-## Boot Camp OS
-
-- Windows (Primary)
-- Mac/Linux (with minor tweaks)
+	- A **version control system** to help keep track of code and collaborate with others
+- Optional: [Chocolatey](https://chocolatey.org/install)
+	- **Package manager** for windows to help install software quickly from the command line
 
 ---
 ## Install Java (JDK 8 or higher)
@@ -96,14 +94,23 @@ You’re now ready to clone the bootcamp repo and start coding!
 
 ```bash
 git clone https://github.com/jfsaaved/java-bootcamp-acn.git
-cd java-bootcamp-2025
 ```
+
+## Alternatively
+
+You can login to GitHub Desktop and clone:
+
+![Pasted image 20250519144738.png](Pasted%20image%2020250519144738.png)
+
+Then enter https://github.com/jfsaaved/java-bootcamp-acn.git under the "Repository URL or GitHub username and repository" section then click 'Clone' button.
+
+![Pasted image 20250519144828.png](Pasted%20image%2020250519144828.png)
 
 ---
 ## Next Steps
 
-- Open the folder in IntelliJ
-- Import as a **Gradle/Maven project** if applicable
+- Open the project in your IDE
+- Familiarize yourself with the IDE
 - Look for the `week-01-introduction-to-coding` folder to get started!
 
 ---

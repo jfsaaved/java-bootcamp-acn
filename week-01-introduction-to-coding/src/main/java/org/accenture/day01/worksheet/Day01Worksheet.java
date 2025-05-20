@@ -52,4 +52,8 @@ public class Day01Worksheet {
         return 0;
     }
 
+    public static int reverse3Digits(int x) {
+        return 0;
+    }
+
 }
