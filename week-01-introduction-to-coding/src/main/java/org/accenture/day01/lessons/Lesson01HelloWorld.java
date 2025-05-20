@@ -32,6 +32,6 @@ public class Lesson01HelloWorld {
 
         //TODO: Invoke printInstanceVariables() method from Lesson03VariablesAndDataTypes
 
-        //TODO: Difference between HELLO_WORLD and FINAL_HELLO_WORLD
+        //TODO: Try to change the values of HELLO_WORLD and FINAL_HELLO_WORLD in Lesson03VariablesAndDataTypes
     }
 }

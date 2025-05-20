@@ -35,7 +35,8 @@ public class Lesson03VariablesAndDataTypes {
 
         // Concept - Narrowing vs Widening conversions
         someDouble = someInteger; // this is fine
-        //TODO someInteger = someDouble; // ?
+        //TODO uncomment and see what happens
+        //someInteger = someDouble; // ?
 
         // Concept - Casting
         //TODO How to make someInteger = someDouble work ?
