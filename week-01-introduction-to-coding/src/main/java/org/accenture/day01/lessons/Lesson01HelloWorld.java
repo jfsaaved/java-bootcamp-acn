@@ -26,7 +26,7 @@ public class Lesson01HelloWorld {
          */
         System.out.println("Hello, world!");
 
-        //TODO Start Here: Use addFiveToNumber method from Lesson02Methods class and print it
+        //TODO: Use addFiveToNumber method from Lesson02Methods class and print it
 
         //TODO: Use the method that returns two integers from Lesson02Methods and print it
 

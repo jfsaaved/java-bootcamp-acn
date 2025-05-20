@@ -17,7 +17,7 @@ public class Lesson03VariablesAndDataTypes {
         //TODO What happens here? System.out.println(someLocalInteger);
     }
     public void printInstanceVariables() {
-        //TODO: Print class integer and boolean in this class, in one line
+        //TODO: Print instance variables integer and boolean in this class, in one line
     }
 
     // Some concepts around variables & data types
