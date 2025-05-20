@@ -215,7 +215,7 @@ In Java, **type conversion** happens when you change a value from one data type 
 |Narrowing|Larger → Smaller type|✅ Yes|✅ Yes|`double → int`|
 
 ---
-## 2.4 Type Casting
+## 2.4 Variables and Data Types - Type Casting
 **Type casting** means **converting one data type into another**.  
 
 ```
