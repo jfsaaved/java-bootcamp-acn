@@ -55,7 +55,7 @@ public class Day01Worksheet {
     public static String combineInputWithSpace(String a, int b) {
         return "";
     }
-    public static int reverse3Digits(int x) {
+    public static int reverse3DigitsUsingArithmeticOperators(int x) {
         return 0;
     }
 

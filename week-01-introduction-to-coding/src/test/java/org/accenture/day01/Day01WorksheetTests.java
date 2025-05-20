@@ -81,9 +81,9 @@ public class Day01WorksheetTests {
     }
 
     @Test
-    public void Reverse_a_3_digit_integer_using_only_math() {
-        assertEquals(321, Day01Worksheet.reverse3Digits(123));
-        assertEquals(654, Day01Worksheet.reverse3Digits(456));
+    public void Reverse_a_3_digit_integer_using_arithmetic_operators() {
+        assertEquals(321, Day01Worksheet.reverse3DigitsUsingArithmeticOperators(123));
+        assertEquals(654, Day01Worksheet.reverse3DigitsUsingArithmeticOperators(456));
     }
 
     @Test
