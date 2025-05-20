@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 /*
  *  TODO Use this class to test your Day01Worksheet.java class
  *      You can also:
- *      Think of other creative methods to make with what we learned in Day01
+ *      Think of other creative methods to make with what you learned in Day01
  *      Create a unit test for these methods
  *      Implement the methods in Day01Worksheet.java class
  */
@@ -84,6 +84,12 @@ public class Day01WorksheetTests {
     public void Reverse_a_3_digit_integer_using_only_math() {
         assertEquals(321, Day01Worksheet.reverse3Digits(123));
         assertEquals(654, Day01Worksheet.reverse3Digits(456));
+    }
+
+    @Test
+    public void Combine_string_and_integer_and_return_a_string_such_that_it_looks_like_InputA___InputB() {
+        assertEquals("Hello 5", Day01Worksheet.combineInputWithSpace("Hello", 5));
+        assertEquals("Dave 100", Day01Worksheet.combineInputWithSpace("Dave", 100));
     }
 
     //TODO Create 1-2 of your own unit tests for Day01Worksheet and make them pass

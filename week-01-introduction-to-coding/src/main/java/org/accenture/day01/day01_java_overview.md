@@ -80,5 +80,3 @@ The **Java Life Cycle** describes the **steps your code goes through** from writ
 | **Runtime**      | Execute Step    | NullPointerException, OutOfMemoryException            |
 
 ---
-
-See `src/main/java/org/accenture/day01/lessons/HelloWorld.java` for code
