@@ -37,9 +37,9 @@ git pull origin main
 ```
 #### Using GitHub Desktop Steps:
 1. Fetch and get an update from the remote repository first - `Fetch origin` button
-	![fetch_origin.png](fetch_origin.png)
+	![fetch_origin.png](../../../../../../../images/fetch_origin.png)
 2. After GitHub Desktop `fetch` is complete it'll turn to `Pull origin` button
-	![pull_origin.png](pull_origin.png)
+	![pull_origin.png](../../../../../../../images/pull_origin.png)
 3. Click on `Pull origin` and repository will be up-to-date
 
 ---
@@ -52,9 +52,9 @@ If the repository has updates on the **same files you're currently editing**, an
 It will prompt you to **stash** your changes — this means temporarily saving them aside. Git will then perform the pull, and after that, you can **unstash** (reapply) your changes on top of the updated code.
 #### Using GitHub Desktop Steps:
 1. After fetching, click on `Pull origin`
-	![pull_with_conflict.png](pull_with_conflict.png)
+	![pull_with_conflict.png](../../../../../../../images/pull_with_conflict.png)
 2. You will get the following prompt. Click on `Stash changes and continue`
-	![conflict_prompt.png](conflict_prompt.png)
+	![conflict_prompt.png](../../../../../../../images/conflict_prompt.png)
 3. There will be `Stashed Changes` in bottom left of GitHub Desktop, where you can decide to **restore** or **discard** the changes we stashed
-	![restore_or_discard.png](restore_or_discard.png)
+	![restore_or_discard.png](../../../../../../../images/restore_or_discard.png)
 4. Click **Restore** to bring back your stashed changes, or **Discard** if you no longer need them. After this, your local copy will be in sync with the latest version from the repository
