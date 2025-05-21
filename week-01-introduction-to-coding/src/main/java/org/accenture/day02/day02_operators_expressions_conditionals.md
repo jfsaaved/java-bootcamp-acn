@@ -10,11 +10,10 @@ This guide covers **conditionals**, **expressions**, and **operators** in Java �
 [Java Math Operators - jenkov](https://jenkov.com/tutorials/java/math-operators-and-math-class.html)    
 
 ---
-## 1. Java Expressions
+## Java Expressions
 
 ### What is an Expression?
 An **expression** is a piece of code that **evaluates to a value**.
-
 ### Examples:
 ```java
 int x = 5 + 2;          // expression: 5 + 2
@@ -25,9 +24,7 @@ Expressions can involve variables, literals, operators, method calls, etc.
 
 ---
 
-## ➕ 2. Java Operators
-
-Java has several categories of operators:
+## Java Operators
 
 ### Arithmetic Operators
 ```java
@@ -36,8 +33,13 @@ Java has several categories of operators:
 *   // multiplication
 /   // division
 %   // modulo (remainder)
-```
 
+int sum = a + b; // Addition  
+int difference = a - b; // Subtraction  
+int product = a * b; // Multiplication  
+int quotient = a / b; // Division  
+int remainder = a % b; // Modulo
+```
 ### Relational (Comparison) Operators
 ```java
 ==  // equal to
@@ -46,15 +48,24 @@ Java has several categories of operators:
 <   // less than
 >=  // greater than or equal to
 <=  // less than or equal to
-```
 
+boolean isEqual = a == b; // Equal to  
+boolean isNotEqual = a != b; // Not equal to  
+boolean isGreater = a > b; // Greater than  
+boolean isLess = a < b; // Less than  
+boolean isGreaterOrEqual = a >= b; // Greater than or equal to  
+boolean isLessOrEqual = a <= b; // Less than or equal to
+```
 ### Logical Operators
 ```java
 &&  // logical AND
 ||  // logical OR
 !   // logical NOT
-```
 
+boolean result1 = (a > 0) && (b > 0); // Logical AND  
+boolean result2 = (a > 0) || (b < 0); // Logical OR  
+boolean result3 = !(a == b); // Logical NOT
+```
 ### Assignment Operators
 ```java
 =    // assign
@@ -63,8 +74,14 @@ Java has several categories of operators:
 *=   // multiply and assign
 /=   // divide and assign
 %=   // mod and assign
-```
 
+int x = a; // Simple assignment  
+x += b; // x = x + b  
+x -= b; // x = x - b  
+x *= b; // x = x * b  
+x /= b; // x = x / b  
+x %= b; // x = x % b
+```
 ### Unary Operators
 ```java
 +   // unary plus
@@ -72,48 +89,29 @@ Java has several categories of operators:
 ++  // increment
 --  // decrement
 !   // logical complement
-```
 
-### Bitwise Operators (rare but powerful)
+int tickingTimeBomb = 5;  
+tickingTimeBomb++; // tickingTimeBomb = 6  
+tickingTimeBomb++; // tickingTimeBomb = 7
+```
+### Pre and Post Increment/Decrement Examples
 ```java
-&   // bitwise AND
-|   // bitwise OR
-^   // bitwise XOR
-~   // bitwise complement
-<<  // left shift
->>  // right shift
->>> // unsigned right shift
+int preIncrement = ++tickingTimeBomb; // Increments first, then returns (6)  
+int postIncrement = tickingTimeBomb++; // Returns first, then increments (6, then value becomes 7)  
+  
+int preDecrement = --tickingTimeBomb; // Decrements first, then returns  
+int postDecrement = tickingTimeBomb--; // Returns first, then decrements
 ```
 
 ---
-
-## Operator Precedence & Associativity
-
-### Precedence (from high to low):
-1. `()` – Parentheses
-2. `++`, `--`, `!` – Unary
-3. `*`, `/`, `%`
-4. `+`, `-`
-5. `<`, `>`, `<=`, `>=`
-6. `==`, `!=`
-7. `&&`
-8. `||`
-9. `=`, `+=`, `-=`, etc.
-
-### Associativity:
-- Left-to-right for most operators
-- Right-to-left for assignments (`=`, `+=`, etc.)
-
----
-
 ## 3. Java Conditionals
 
 ### If-Else Statement
 ```java
-if (age >= 18) {
-    System.out.println("Adult");
+if (number >= 25) {
+    System.out.println("More than or equal to 25.");
 } else {
-    System.out.println("Minor");
+    System.out.println("Otherwise.");
 }
 ```
 
@@ -130,7 +128,7 @@ if (score >= 90) {
 
 ### Ternary Operator
 ```java
-String result = (age >= 18) ? "Adult" : "Minor";
+String result = (number >= 25) ? "More than or equal to 25." : "Otherwise.";
 ```
 
 ### Switch Statement (Traditional)
@@ -142,17 +140,7 @@ switch (day) {
 }
 ```
 
-### Switch Expression (Java 14+)
-```java
-String result = switch (day) {
-    case 1 -> "Monday";
-    case 2 -> "Tuesday";
-    default -> "Other";
-};
-```
-
 ---
-
 ## Advanced
 
 - **Short-circuiting**: `&&` and `||` skip evaluation if the result is already known.
@@ -160,35 +148,20 @@ String result = switch (day) {
   if (x != 0 && 10 / x > 1) { } // avoids divide by zero
   ```
 
-- **Bitwise Tricks**: Use `^` to toggle bits or swap values (rare in high-level code).
+- **Assignment inside conditionals** ():
+	- Can easily be confused with `==` (comparison)
+	- Avoid using it when it **hurts clarity**
+	
   ```java
-  a = a ^ b; b = a ^ b; a = a ^ b; // swap a and b
+  if ((x = 10) > 5) { } // valid, but messy
   ```
 
-- **Assignment inside conditionals** (be careful!):
-  ```java
-  if ((x = 10) > 5) { } // valid, but risky
-  ```
+- **Use `equals()` for String comparison** vs `==`
 
-- **Modulus with negatives**:
-  ```java
-  -5 % 3 == -2 // Java preserves the sign of the numerator
-  ```
-
-- **Use `equals()` for String comparison**, not `==`
-  ```java
-  "abc".equals("abc") // true
-  "abc" == "abc"      // may be true (due to interning), but not reliable
-  ```
+| Comparison | Checks             | True when                                   |
+| ---------- | ------------------ | ------------------------------------------- |
+| `equals()` | Content            | The characters inside are the same          |
+| `==`       | Reference (memory) | Both variables point to the **same object** |
 
 ---
-
-## Summary
-
-- Use **expressions** to compute values
-- Use **operators** to compare, assign, calculate, and make decisions
-- Use **conditionals** to control the flow of logic
-- Understand **precedence**, **short-circuiting**, and the dangers of misusing `==` with objects
-
-Mastering these core tools gives you power and confidence when building logic in Java!
 
