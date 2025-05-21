@@ -20,6 +20,8 @@ public class Lesson01Operators {
 
     // TODO: Write a method that initialize two integer variables and prints their sum.
 
+    // TODO: Write a method that initialize two integer variables and returns their sum.
+
     // TODO: Write a method called `greetUser` that takes a String name as a parameter and returns "Hello, [name]!"
 
     // Relational Operator Exercises
@@ -49,6 +51,7 @@ public class Lesson01Operators {
         System.out.println("a.equals(b): " + a.equals(b));
     }
     public Lesson01Operators() {
+        System.out.println("Lesson01Operators constructor start.");
         a = 10;
         b = 5;
 
@@ -94,7 +97,7 @@ public class Lesson01Operators {
         int negative = -a;           // Negation
         int positive = +b;           // Unary plus (usually has no effect)
 
-        System.out.println("Lesson01Operators loaded.");
+        System.out.println("Lesson01Operators constructor end.");
     }
 
 }

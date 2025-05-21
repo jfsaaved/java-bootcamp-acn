@@ -49,6 +49,7 @@ public class Lesson02Conditionals {
         throw new RuntimeException();
     }
     public Lesson02Conditionals() {
+        System.out.println("Lesson02Conditionals constructor start.");
         // if, else if, and else statements
         if (a > b) {
             // A is greater than B
@@ -87,6 +88,6 @@ public class Lesson02Conditionals {
         // Ternary Operator
         String result = (a > b) ? "A is greater" : "B is greater or equal";
 
-        System.out.println("Lesson02Conditionals loaded.");
+        System.out.println("Lesson02Conditionals constructor end.");
     }
 }
