@@ -1,4 +1,4 @@
-# Day 03 - Loops
+# Day 03 - Arrays, and Loops
 
 This guide covers all looping mechanisms in Java, from basic usage to subtle behaviors and important best practices.
 
@@ -7,14 +7,55 @@ This guide covers all looping mechanisms in Java, from basic usage to subtle beh
 
 ### Free Resources
 [Loops in Java - programiz](https://www.programiz.com/java-programming/for-loop)    
+[Arrays - jenkov](https://jenkov.com/tutorials/java/arrays.html)
 
 ---
-## 1. Types of Loops in Java
+# **Arrays**
+
+#### Declaring Arrays
+```java
+int[] numbers;           // declaration
+numbers = new int[5];    // allocation (5 integers: 0 0 0 0 0)
+
+or
+
+int[] numbers = new int[5];
+```
+
+#### Initializing Arrays
+```java
+int[] scores = {90, 85, 88, 70, 95};
+
+or
+
+String[] names = new String[3];  // all null
+```
+
+#### Accessing Elements
+```java
+System.out.println(scores[0]);  // prints 90
+scores[2] = 100;                // change 3rd element to 100
+```
+
+#### Array Indexing
+- Index starts at **0**
+- `array.length` gives the number of elements
+- Accessing an invalid index throws error
+
+---
+# **Loops**
+## Types of Loops in Java
 
 ### For Loop
 ```java
 for (int i = 0; i < 5; i++) {
     System.out.println(i);
+}
+
+// Iterating through arrays
+int[] scores = {0, 2, 3, 4, 5}
+for (int i = 0; i < scores.length; i++) {
+    System.out.println(scores[i]);
 }
 ```
 - Best for when you know how many times to iterate.
@@ -45,19 +86,24 @@ int[] numbers = {1, 2, 3};
 for (int num : numbers) {
     System.out.println(num);
 }
+
+// Iterating through arrays
+for (int score : scores) {
+    System.out.println(score);
+}
 ```
 - Cleanest way to loop over arrays, lists, and other iterable collections.
 - Cannot modify the collection itself (e.g. remove elements) during iteration.
 
 ---
 
-## 2. Loop Control Keywords
+## Loop Control Keywords
 
 ### Break
 ```java
 for (int i = 0; i < 10; i++) {
     if (i == 5) break;
-    System.out.println(i);
+    System.out.println(i); // Won't execute
 }
 ```
 - Exits the loop entirely.
@@ -81,11 +127,10 @@ for (int i = 0; i < 3; i++) {
     }
 }
 ```
-- Useful for breaking out of nested loops, but should be used sparingly.
+- Useful for breaking out of nested loops
 
 ---
-
-## 3. Infinite Loops
+## Infinite Loops
 
 ### Intentional Infinite Loop
 ```java
@@ -94,18 +139,16 @@ while (true) {
     if (conditionMet()) break;
 }
 ```
-
 ### Loop Without Condition
 ```java
 for (;;) {
     // Also infinite
 }
 ```
-- Often used in low-level systems or event listeners.
 
 ---
 
-## 4. Subtleties and Considerations
+## Subtleties and Considerations
 
 ### Modifying Collections During Iteration
 ```java
@@ -114,7 +157,7 @@ for (String name : names) {
     names.remove(name); // throws ConcurrentModificationException
 }
 ```
-- Use an Iterator with `iterator.remove()` or loop backward to safely remove items.
+- Use an Iterator with `iterator.remove()` to safely remove items.
 
 ### Off-by-One Errors
 ```java
@@ -124,38 +167,4 @@ for (int i = 0; i <= 5; i++) {
 ```
 - Be clear whether your loop should include the endpoint or not.
 
-### Shadowed Variables
-```java
-for (int i = 0; i < 3; i++) {
-    int i = 10; // error: i already defined
-}
-```
-- You cannot redefine loop variables inside the same block.
-
-### Floating-Point Precision
-```java
-for (double d = 0.1; d <= 1.0; d += 0.1) {
-    System.out.println(d);
-}
-```
-- May not behave as expected due to floating-point rounding errors.
-- Prefer integer-based counters when possible.
-
-### Performance Considerations
-- Avoid unnecessary recalculations in loop conditions:
-```java
-for (int i = 0; i < expensiveCall(); i++) // avoid this
-```
-- Store the result outside the loop if it doesn't change.
-
 ---
-## 5. Best Practices
-
-- Use descriptive variable names (`index` instead of `i`, if clarity helps).
-- Avoid deep nesting by using `continue` or breaking logic into methods.
-- Be cautious with infinite loops; ensure there's a valid exit strategy.
-- Prefer enhanced for-loops when you don’t need the index.
-
----
-
-Loops are one of the most fundamental tools in Java. Understanding their flexibility, behavior, and caveats allows you to write clearer, safer, and more efficient code.
