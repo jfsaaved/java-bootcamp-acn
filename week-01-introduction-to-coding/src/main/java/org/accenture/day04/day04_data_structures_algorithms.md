@@ -17,9 +17,7 @@ Some things to expect in a Backend role:
     The application must be able to process the data in various ways, including batch processing (processing large chunks of data at a time) and stream processing (processing data as it arrives).
 
 ---
-# Data Structure
-A **data structure** is a specialized format for organizing, storing, and managing data efficiently.
-## Common Data Structures in Java
+# Data Structures in Java
 
 | Data Structure | Description                      | Example Usage                       |
 | -------------- | -------------------------------- | ----------------------------------- |
@@ -32,16 +30,15 @@ A **data structure** is a specialized format for organizing, storing, and managi
 | `LinkedList`   | Elements linked via nodes        | Custom list with fast insert/delete |
 
 ---
-# Algorithm
-An **algorithm** is a precise set of steps designed to solve a specific problem efficiently.
+# Algorithms in Java
 
-| Task                          | Data Structure      | Algorithm Involved          |
-|-------------------------------|----------------------|------------------------------|
-| Store user info               | `HashMap<String, User>` | Key-value mapping           |
-| Sort transactions by time     | `List<Transaction>`  | Sorting (`Collections.sort`) |
-| Process requests in order     | `Queue<Request>`     | FIFO algorithm               |
-| Search by username            | `List<User>` or `Map`| Linear or constant-time search |
-| Validate login credentials    | Variables / Strings  | String comparison algorithm  |
+| Task                       | Data Structure          | Algorithm Involved             |
+| -------------------------- | ----------------------- | ------------------------------ |
+| Store user info            | `HashMap<String, User>` | Key-value mapping              |
+| Sort transactions by time  | `List<Transaction>`     | Sorting (`Collections.sort`)   |
+| Process requests in order  | `Queue<Request>`        | FIFO algorithm                 |
+| Search by username         | `List<User>` or `Map`   | Linear or constant-time search |
+| Validate login credentials | Variables / Strings     | String comparison algorithm    |
 
 
 
