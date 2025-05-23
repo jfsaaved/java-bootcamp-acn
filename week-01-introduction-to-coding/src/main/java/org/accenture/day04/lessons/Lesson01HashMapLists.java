@@ -16,7 +16,7 @@ public class Lesson01HashMapLists {
         ages.remove("Charlie");             // remove key
         System.out.println(ages.containsKey("Alice")); // true
 
-        ArrayList<String> fruits = new ArrayList<>();
+        List<String> fruits = new ArrayList<>();
 
         fruits.add("Apple");
         fruits.add("Banana");
