@@ -30,10 +30,10 @@ public class Day04Worksheet {
     }
 
     /**
-     * Design your own scenario similar to Day04Main Lessons and implement the models & services classes
+     * Design your own scenario similar to Day04Main Lessons and implement the model & service classes
      *
      * Follow-up:
-     * Create another model & service classes but with unit tests first
+     * Design and create another model & service classes but with unit tests first
      */
 
 }
