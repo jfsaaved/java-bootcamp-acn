@@ -28,6 +28,21 @@ Some things to expect in a Backend role:
 | `Stack`        | LIFO (Last In, First Out)        | Undo feature in a text editor       |
 | `Queue`        | FIFO (First In, First Out)       | Processing tasks in order           |
 | `LinkedList`   | Elements linked via nodes        | Custom list with fast insert/delete |
+#### HashMaps & ArrayLists
+
+| Feature              | `HashMap<K, V>`                               | `ArrayList<E>`                         |
+| -------------------- | --------------------------------------------- | -------------------------------------- |
+| **Type**             | Key-value pair collection                     | Ordered list of elements (index-based) |
+| **Stores**           | Entries: one key → one value                  | Single values                          |
+| **Access by**        | `key`                                         | `index`                                |
+| **Ordering**         | No guaranteed order                           | Keeps insertion order                  |
+| **Duplicates**       | ❌ Keys must be unique                         | ✅ Allows duplicate values              |
+| **Nulls**            | ✅ One `null` key, multiple `null` values      | ✅ Allows `null` values                 |
+| **Common use cases** | Lookup table, map IDs to data, cache          | List of items, ordered data, looping   |
+| **Access speed**     | Fast (O(1) for key lookup)                    | Fast for index access, slow to search  |
+| **Insertion speed**  | Fast (amortized O(1))                         | Fast at end, slower at front           |
+| **Syntax Example**   | `map.put("a", 100);`                          | `list.add(100);`                       |
+| **Key methods**      | `put()`, `get()`, `remove()`, `containsKey()` | `add()`, `get()`, `set()`, `remove()`  |
 
 ---
 # Algorithms in Java
