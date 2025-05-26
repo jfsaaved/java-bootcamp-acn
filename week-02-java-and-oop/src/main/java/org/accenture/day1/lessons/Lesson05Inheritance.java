@@ -14,14 +14,17 @@ package org.accenture.day1.lessons;
 // TODO: 4) Demonstrate instantiating Parent and Child
 // TODO: 5) Show calling Parent.describe() vs. Child.describe()
 
+
 public class Lesson05Inheritance {
 
+    // Base class Parent
     public static class Parent {
         public String describe() {
             return "I am the Parent";
         }
     }
 
+    // Subclass Child that extends Parent
     public static class SubClass extends Parent {
         @Override
         public String describe() {
