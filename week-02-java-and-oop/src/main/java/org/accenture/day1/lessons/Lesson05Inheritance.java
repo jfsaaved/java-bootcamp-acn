@@ -1,0 +1,31 @@
+package org.accenture.day1.lessons;
+
+/*
+* Inheritance lets you form new classes (subclasses) based on existing ones (superclasses),
+* inheriting fields and methods so you don’t have to rewrite common behavior. In Java you
+* declare class Child extends Parent. The child automatically has all non-private
+* members of the parent, and can override methods to specialize or augment behavior via @Override.
+* */
+
+
+// TODO: 1) Create a base class Parent with method `String describe()`
+// TODO: 2) Create a subclass Child that extends Parent
+// TODO: 3) Override describe() in Child and call super.describe()
+// TODO: 4) Demonstrate instantiating Parent and Child
+// TODO: 5) Show calling Parent.describe() vs. Child.describe()
+
+public class Lesson05Inheritance {
+
+    public static class Parent {
+        public String describe() {
+            return "I am the Parent";
+        }
+    }
+
+    public static class SubClass extends Parent {
+        @Override
+        public String describe() {
+            return super.describe() + " -> I am the Child";
+        }
+    }
+}
