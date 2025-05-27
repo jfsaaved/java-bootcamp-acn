@@ -77,11 +77,15 @@ public class Day05Worksheet {
         return 0;
     }
 
-    /** 12) Design another scenario similar to Day04Worksheet creating model & service classes with the following constraints
-     *      - Have a 'repository' (database/persistence layer) interface class with 2 or more 'repository' implementations - use Java collections to mock databases
-     *      - Have a base model class for your models to keep track of 'createdAt' and 'updatedAt' attributes
-     *      
+    /**
+     * 12) Design a small app scenario (like Day04Worksheet) using model and service classes with the following constraints:
+     *
+     *    - Create a 'Repository' interface to simulate a database layer.
+     *    - Implement at least 2 concrete repository classes using Java collections (e.g., HashMap, List, Queue, etc.) as mock databases.
+     *    - Create a base model class (e.g., BaseEntity) to track common fields like 'createdAt' and 'updatedAt'.
+     *
      * Follow-up:
-     * Design and create another model & service classes but with unit tests first
+     *    - Design a new model & service class using a test-first approach (TDD).
+     *    - Write unit tests before implementing the service logic.
      */
 }
