@@ -1,4 +1,4 @@
-# Day 02 – OOP Overview
+# Day 05 – OOP Overview
 
 ## Why OOP?
 - Models real-world concepts as **objects** with state (fields) and behavior (methods).
