@@ -1,4 +1,4 @@
-package org.accenture.day1.lessons;
+package org.accenture.day05.lessons;
 
 /*
 * Polymorphism means “many forms.” In practice, it lets you write code against a general

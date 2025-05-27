@@ -1,4 +1,4 @@
-package org.accenture.day1.lessons;
+package org.accenture.day05.lessons;
 
 /*
 * Inheritance lets you form new classes (subclasses) based on existing ones (superclasses),

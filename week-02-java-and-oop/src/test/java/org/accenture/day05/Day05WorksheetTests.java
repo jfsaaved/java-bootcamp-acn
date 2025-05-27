@@ -1,11 +1,11 @@
-package org.accenture.day1;
+package org.accenture.day05;
 
-import org.accenture.day1.worksheet.Day02Worksheet;
+import org.accenture.day05.worksheet.Day05Worksheet;
 import org.testng.annotations.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class Day02WorksheetTests {
-    private final Day02Worksheet ws = new Day02Worksheet();
+public class Day05WorksheetTests {
+    private final Day05Worksheet ws = new Day05Worksheet();
 
     // -- Encapsulation --
     @Test void testEncapsulationExercise1() {

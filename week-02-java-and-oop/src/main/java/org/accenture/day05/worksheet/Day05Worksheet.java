@@ -1,7 +1,7 @@
-package org.accenture.day1.worksheet;
+package org.accenture.day05.worksheet;
 
 
-public class Day02Worksheet {
+public class Day05Worksheet {
 
     // === Encapsulation ===
 
@@ -76,4 +76,12 @@ public class Day02Worksheet {
         // TODO
         return 0;
     }
+
+    /** 12) Design another scenario similar to Day04Worksheet creating model & service classes with the following constraints
+     *      - Have a 'repository' (database/persistence layer) interface class with 2 or more 'repository' implementations - use Java collections to mock databases
+     *      - Have a base model class for your models to keep track of 'createdAt' and 'updatedAt' attributes
+     *      
+     * Follow-up:
+     * Design and create another model & service classes but with unit tests first
+     */
 }

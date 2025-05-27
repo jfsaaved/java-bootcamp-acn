@@ -1,6 +1,6 @@
-package org.accenture.day1.lessons;
+package org.accenture.day05.lessons;
 
-public class Day5_OOP {
+public class Day05Main {
 
     public static void main(String[] args) {
 

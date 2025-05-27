@@ -1,4 +1,4 @@
-package org.accenture.day1.lessons;
+package org.accenture.day05.lessons;
 
 /*
 * Abstraction is about modeling only the essential features of something, hiding the details.

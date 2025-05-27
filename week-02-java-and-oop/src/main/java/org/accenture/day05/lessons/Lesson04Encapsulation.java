@@ -1,4 +1,4 @@
-package org.accenture.day1.lessons;
+package org.accenture.day05.lessons;
 
 /*
 * Encapsulation is the practice of keeping an object’s internal state (its fields) hidden from the outside world,
