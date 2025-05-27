@@ -41,10 +41,9 @@ Hands-on idea:
 
 | Day | Subject                                                                  | Link To Worksheet |
 | --- | ------------------------------------------------------------------------ | ----------------- |
-| Mon | **Overview OOP (Encapsulation, Inheritance, Polymorphism, Abstraction)** |                   |
-| Tue | **Exceptions and Error Handling**<br><br>                                |                   |
-| Wed | **Core Java Libraries, and Core Java Documentations**<br>                |                   |
-| Thu | **Threads and Mutability**                                               |                   |
+| Tue | **Overview OOP (Encapsulation, Inheritance, Polymorphism, Abstraction)** |                   |
+| Wed | **Exceptions and Error Handling**<br><br>                                |                   |
+| Thu | **Threads and Mutability**<br>                                           |                   |
 | Fri | **Streams and Lambda**                                                   |                   |
 
 ---
