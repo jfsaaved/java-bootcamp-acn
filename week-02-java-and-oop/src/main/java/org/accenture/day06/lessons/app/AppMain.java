@@ -1,0 +1,83 @@
+package org.accenture.day06.lessons.app;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import org.accenture.day06.lessons.controller.AggregatedDataController;
+import org.accenture.day06.lessons.controller.ServiceRequestController;
+import org.accenture.day06.lessons.enums.Status;
+import org.accenture.day06.lessons.model.Data01;
+import org.accenture.day06.lessons.model.Data02;
+import org.accenture.day06.lessons.repository.Data01RepositoryHashImpl;
+import org.accenture.day06.lessons.repository.Data01RepositoryQueueImpl;
+import org.accenture.day06.lessons.repository.Data02RepositoryHashImpl;
+import org.accenture.day06.lessons.repository.EventLoggerListImpl;
+import org.accenture.day06.lessons.service.CallingAnotherService;
+
+import java.time.LocalDate;
+import java.util.UUID;
+
+public class AppMain {
+    public static void simulateApplicationRun(AggregatedDataController aggregatedDataController) throws JsonProcessingException {
+        // Example run -> In real life, other microservices will be calling our controller
+        for (int i = 0; i < 10; i++) {
+            Data01 data01 = new Data01();
+            Data02 data02 = new Data02();
+
+            UUID data02UUID = UUID.randomUUID();
+            String data02Name = "Data 02 - " + data02UUID;
+            data02.setUuid(data02UUID);
+            data02.setDataName(data02Name);
+            data02.setType("General Type");
+            data02.setSomeOtherId(data02Name + Math.random());
+
+            UUID data01UUID = UUID.randomUUID();
+            data01.setUuid(data01UUID);
+            data01.setDataName("Data 01 - " + data01UUID);
+            data01.setCategory("General Category");
+            data01.setData02Name(data02Name);
+
+            data01.setCreatedAt(LocalDate.now());
+            data01.setUpdatedAt(LocalDate.now());
+
+            data02.setCreatedAt(LocalDate.now());
+            data02.setUpdatedAt(LocalDate.now());
+
+            aggregatedDataController.postData(data01, data02);
+        }
+    }
+
+    public static void main(String[] args) throws InterruptedException {
+        // With a good design things are easily replaceable
+        Data01RepositoryHashImpl database01Data01 = new Data01RepositoryHashImpl();
+        Data01RepositoryQueueImpl database02Data01 = new Data01RepositoryQueueImpl();
+
+        // Second database
+        // TODO Create a Data02RepositoryQueueImpl class that uses Queue data structure
+        //  Follow-up: Inject this Database implementation to AggregatedDataController and re-run
+        Data02RepositoryHashImpl database01Data02 = new Data02RepositoryHashImpl();
+
+        // Our logger
+        // TODO Create another Event Logger implementation using Stack data structure
+        //  Follow-up: Inject this Event Logger implementation to AggregatedDataController and re-run
+        EventLoggerListImpl eventLogger = new EventLoggerListImpl();
+
+        // Our Controller
+        AggregatedDataController aggregatedDataController =
+                new AggregatedDataController(database01Data01, database01Data02, eventLogger);
+
+        //simulateApplicationRun(aggregatedDataController);
+
+        // Output results
+        System.out.println(eventLogger.getAll());
+
+        // ************************************************************************
+
+        CallingAnotherService callingAnotherService = new CallingAnotherService();
+        ServiceRequestController serviceRequestController = new ServiceRequestController(callingAnotherService);
+
+        for (int i = 0; i < 100; i++) {
+            Status result = serviceRequestController.getRequest();
+            System.out.println("Request Made: " + result);
+            Thread.sleep(500);
+        }
+    }
+}
