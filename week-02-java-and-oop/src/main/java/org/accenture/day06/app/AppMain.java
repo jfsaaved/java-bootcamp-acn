@@ -52,18 +52,20 @@ public class AppMain {
     }
 
     public static void main(String[] args) throws InterruptedException, JsonProcessingException {
+        // SCENARIO 01 ************************************************************************
+
         // With a good design things are easily replaceable
         Data01RepositoryHashImpl database01Data01 = new Data01RepositoryHashImpl();
         Data01RepositoryQueueImpl database02Data01 = new Data01RepositoryQueueImpl();
 
         // Second database
         // TODO Create a Data02RepositoryQueueImpl class that uses Queue data structure
-        //  Follow-up: Inject this Database implementation to AggregatedDataController and re-run
+        //  Follow-up: Inject this Database implementation to our Data02Service and re-run
         Data02RepositoryHashImpl database01Data02 = new Data02RepositoryHashImpl();
 
         // Our logger
         // TODO Create another Event Logger implementation using Stack data structure
-        //  Follow-up: Inject this Event Logger implementation to AggregatedDataController and re-run
+        //  Follow-up: Inject this Event Logger implementation to our AggregatedDataController and re-run
         EventLoggerListImpl eventLogger = new EventLoggerListImpl();
 
         // Our Services and Controller
@@ -78,7 +80,7 @@ public class AppMain {
         // Output results
         System.out.println("Scenario 01: " + eventLogger.getAll());
 
-        // ************************************************************************
+        // SCENARIO 02 ************************************************************************
 
         RequestService requestService = new RequestService(new RestTemplate());
         ServiceRequestController serviceRequestController = new ServiceRequestController(requestService);
