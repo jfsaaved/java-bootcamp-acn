@@ -34,7 +34,6 @@ public class AggregatedDataController {
      *  Use AggregatedDataControllerTest.java to test
      * <p>
      * Assume: Data01.getData02Name() == Data02.getDataName()
-     * See Line 16 - 43 how this service is taking in data in simulation
      * <p>
      * Example:
      * <p>
