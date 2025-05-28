@@ -1,6 +1,6 @@
-package org.accenture.day06.lessons.utility;
+package org.accenture.day06.utility;
 
-import org.accenture.day06.lessons.enums.Status;
+import org.accenture.day06.enums.Status;
 
 import java.util.Random;
 

@@ -1,9 +1,9 @@
-package org.accenture.day06.lessons.repository;
+package org.accenture.day06.repository;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import org.accenture.day06.lessons.model.BaseEntity;
+import org.accenture.day06.model.BaseEntity;
 
 import java.util.ArrayList;
 import java.util.List;

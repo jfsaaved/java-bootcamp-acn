@@ -1,13 +1,12 @@
-package org.accenture.day06.lessons.repository;
+package org.accenture.day06.repository;
 
-import org.accenture.day06.lessons.model.Data01;
+import org.accenture.day06.model.Data01;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
 public class Data01RepositoryHashImpl implements Data01Repository {
-
     private Map<UUID, Data01> data01HashMap;
 
     public Data01RepositoryHashImpl() {

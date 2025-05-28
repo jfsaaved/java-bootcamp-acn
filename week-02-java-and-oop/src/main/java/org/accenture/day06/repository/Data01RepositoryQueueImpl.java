@@ -1,13 +1,12 @@
-package org.accenture.day06.lessons.repository;
+package org.accenture.day06.repository;
 
-import org.accenture.day06.lessons.model.Data01;
+import org.accenture.day06.model.Data01;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.UUID;
 
 public class Data01RepositoryQueueImpl implements Data01Repository {
-
     private Queue<Data01> data01Queue;
 
     public Data01RepositoryQueueImpl() {

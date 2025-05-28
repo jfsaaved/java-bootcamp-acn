@@ -1,10 +1,10 @@
-package org.accenture.day06.lessons.controller;
+package org.accenture.day06.controller;
 
-import org.accenture.day06.lessons.enums.Status;
-import org.accenture.day06.lessons.service.CallingAnotherService;
+import org.accenture.day06.enums.Status;
+import org.accenture.day06.service.CallingAnotherService;
 
 public class ServiceRequestController {
-    private CallingAnotherService callingAnotherService;
+    private final CallingAnotherService callingAnotherService;
     public ServiceRequestController(CallingAnotherService callingAnotherService) {
         this.callingAnotherService = callingAnotherService;
     }

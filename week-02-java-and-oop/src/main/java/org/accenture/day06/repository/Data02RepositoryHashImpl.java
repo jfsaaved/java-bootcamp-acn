@@ -1,6 +1,6 @@
-package org.accenture.day06.lessons.repository;
+package org.accenture.day06.repository;
 
-import org.accenture.day06.lessons.model.Data02;
+import org.accenture.day06.model.Data02;
 
 import java.util.HashMap;
 import java.util.Map;

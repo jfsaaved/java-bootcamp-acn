@@ -1,9 +1,7 @@
-package org.accenture.day06.lessons.service;
+package org.accenture.day06.service;
 
-import org.accenture.day06.lessons.model.Data01;
-import org.accenture.day06.lessons.repository.Data01Repository;
-
-import java.util.UUID;
+import org.accenture.day06.model.Data01;
+import org.accenture.day06.repository.Data01Repository;
 
 public class Data01Service {
 

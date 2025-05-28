@@ -1,4 +1,4 @@
-package org.accenture.day06.lessons.enums;
+package org.accenture.day06.enums;
 
 public enum Status {
     SUCCESS(200),

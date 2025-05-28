@@ -1,4 +1,4 @@
-package org.accenture.day06.lessons.model;
+package org.accenture.day06.model;
 
 import java.util.UUID;
 

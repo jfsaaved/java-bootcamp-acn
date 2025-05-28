@@ -1,21 +1,21 @@
-package org.accenture.day06.lessons.controller;
+package org.accenture.day06.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import org.accenture.day06.lessons.model.AggregatedData;
-import org.accenture.day06.lessons.model.Data01;
-import org.accenture.day06.lessons.model.Data02;
-import org.accenture.day06.lessons.repository.Data01Repository;
-import org.accenture.day06.lessons.repository.Data02Repository;
-import org.accenture.day06.lessons.repository.EventLogger;
-import org.accenture.day06.lessons.service.Data01Service;
-import org.accenture.day06.lessons.service.Data02Service;
+import org.accenture.day06.model.AggregatedData;
+import org.accenture.day06.model.Data01;
+import org.accenture.day06.model.Data02;
+import org.accenture.day06.repository.Data01Repository;
+import org.accenture.day06.repository.Data02Repository;
+import org.accenture.day06.repository.EventLogger;
+import org.accenture.day06.service.Data01Service;
+import org.accenture.day06.service.Data02Service;
 
 import java.util.UUID;
 
 public class AggregatedDataController {
-    private Data01Service data01Service;
-    private Data02Service data02Service;
-    private EventLogger eventLogger;
+    private final Data01Service data01Service;
+    private final Data02Service data02Service;
+    private final EventLogger eventLogger;
 
     public AggregatedDataController(Data01Repository data01Repository, Data02Repository data02Repository, EventLogger eventLogger) {
         this.data01Service = new Data01Service(data01Repository);

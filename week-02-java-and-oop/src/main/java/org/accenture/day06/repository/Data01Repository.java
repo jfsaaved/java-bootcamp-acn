@@ -1,6 +1,6 @@
-package org.accenture.day06.lessons.repository;
+package org.accenture.day06.repository;
 
-import org.accenture.day06.lessons.model.Data01;
+import org.accenture.day06.model.Data01;
 
 import java.util.UUID;
 

@@ -1,7 +1,7 @@
-package org.accenture.day06.lessons.service;
+package org.accenture.day06.service;
 
-import org.accenture.day06.lessons.model.Data02;
-import org.accenture.day06.lessons.repository.Data02Repository;
+import org.accenture.day06.model.Data02;
+import org.accenture.day06.repository.Data02Repository;
 
 public class Data02Service {
     private Data02Repository data02Repository;

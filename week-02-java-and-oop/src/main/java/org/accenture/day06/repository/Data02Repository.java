@@ -1,6 +1,6 @@
-package org.accenture.day06.lessons.repository;
+package org.accenture.day06.repository;
 
-import org.accenture.day06.lessons.model.Data02;
+import org.accenture.day06.model.Data02;
 
 public interface Data02Repository {
     void saveData02(Data02 data02);

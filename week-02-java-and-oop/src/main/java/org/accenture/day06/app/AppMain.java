@@ -1,16 +1,16 @@
-package org.accenture.day06.lessons.app;
+package org.accenture.day06.app;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import org.accenture.day06.lessons.controller.AggregatedDataController;
-import org.accenture.day06.lessons.controller.ServiceRequestController;
-import org.accenture.day06.lessons.enums.Status;
-import org.accenture.day06.lessons.model.Data01;
-import org.accenture.day06.lessons.model.Data02;
-import org.accenture.day06.lessons.repository.Data01RepositoryHashImpl;
-import org.accenture.day06.lessons.repository.Data01RepositoryQueueImpl;
-import org.accenture.day06.lessons.repository.Data02RepositoryHashImpl;
-import org.accenture.day06.lessons.repository.EventLoggerListImpl;
-import org.accenture.day06.lessons.service.CallingAnotherService;
+import org.accenture.day06.enums.Status;
+import org.accenture.day06.controller.AggregatedDataController;
+import org.accenture.day06.controller.ServiceRequestController;
+import org.accenture.day06.model.Data01;
+import org.accenture.day06.model.Data02;
+import org.accenture.day06.repository.Data01RepositoryHashImpl;
+import org.accenture.day06.repository.Data01RepositoryQueueImpl;
+import org.accenture.day06.repository.Data02RepositoryHashImpl;
+import org.accenture.day06.repository.EventLoggerListImpl;
+import org.accenture.day06.service.CallingAnotherService;
 
 import java.time.LocalDate;
 import java.util.UUID;
@@ -45,7 +45,7 @@ public class AppMain {
         }
     }
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException, JsonProcessingException {
         // With a good design things are easily replaceable
         Data01RepositoryHashImpl database01Data01 = new Data01RepositoryHashImpl();
         Data01RepositoryQueueImpl database02Data01 = new Data01RepositoryQueueImpl();
@@ -61,13 +61,14 @@ public class AppMain {
         EventLoggerListImpl eventLogger = new EventLoggerListImpl();
 
         // Our Controller
+        // Params: (Data01Repository, Data02Repository, EventLogger)
         AggregatedDataController aggregatedDataController =
                 new AggregatedDataController(database01Data01, database01Data02, eventLogger);
 
-        //simulateApplicationRun(aggregatedDataController);
+        simulateApplicationRun(aggregatedDataController);
 
         // Output results
-        System.out.println(eventLogger.getAll());
+        System.out.println("Scenario 01: " + eventLogger.getAll());
 
         // ************************************************************************
 
@@ -76,7 +77,7 @@ public class AppMain {
 
         for (int i = 0; i < 100; i++) {
             Status result = serviceRequestController.getRequest();
-            System.out.println("Request Made: " + result);
+            System.out.println("Scenario 02: Request Made - " + result);
             Thread.sleep(500);
         }
     }

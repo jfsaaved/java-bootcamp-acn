@@ -1,7 +1,7 @@
-package org.accenture.day06.lessons.service;
+package org.accenture.day06.service;
 
-import org.accenture.day06.lessons.enums.Status;
-import org.accenture.day06.lessons.utility.RestTemplate;
+import org.accenture.day06.enums.Status;
+import org.accenture.day06.utility.RestTemplate;
 
 public class CallingAnotherService {
     private RestTemplate restTemplate;
