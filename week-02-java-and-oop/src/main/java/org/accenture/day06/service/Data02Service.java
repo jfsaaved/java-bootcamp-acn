@@ -14,7 +14,4 @@ public class Data02Service {
         data02Repository.saveData02(data02);
     }
 
-    public Data02 getData02ByName(String dataName) {
-        return data02Repository.getData02(dataName);
-    }
 }

@@ -10,11 +10,14 @@ import org.accenture.day06.repository.Data01RepositoryHashImpl;
 import org.accenture.day06.repository.Data01RepositoryQueueImpl;
 import org.accenture.day06.repository.Data02RepositoryHashImpl;
 import org.accenture.day06.repository.EventLoggerListImpl;
-import org.accenture.day06.service.CallingAnotherService;
+import org.accenture.day06.service.RequestService;
 
 import java.time.LocalDate;
 import java.util.UUID;
 
+/**
+ * This class simulates how this application will be called in a Microservice system
+ */
 public class AppMain {
     public static void simulateApplicationRun(AggregatedDataController aggregatedDataController) throws JsonProcessingException {
         // Example run -> In real life, other microservices will be calling our controller
@@ -72,8 +75,8 @@ public class AppMain {
 
         // ************************************************************************
 
-        CallingAnotherService callingAnotherService = new CallingAnotherService();
-        ServiceRequestController serviceRequestController = new ServiceRequestController(callingAnotherService);
+        RequestService requestService = new RequestService();
+        ServiceRequestController serviceRequestController = new ServiceRequestController(requestService);
 
         for (int i = 0; i < 100; i++) {
             Status result = serviceRequestController.getRequest();

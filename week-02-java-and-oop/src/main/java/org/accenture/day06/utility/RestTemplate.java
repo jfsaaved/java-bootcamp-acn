@@ -1,11 +1,11 @@
 package org.accenture.day06.utility;
 
 import org.accenture.day06.enums.Status;
+import org.accenture.day06.errors.CustomUncheckedException;
 
 import java.util.Random;
 
 /**
- * Ignore this class.
  * This class simulates a request to another Microservice
  */
 public class RestTemplate {
@@ -16,7 +16,7 @@ public class RestTemplate {
      */
     public Status getRequest() {
         int randomInteger = new Random().nextInt(20);
-        if (randomInteger > 15) throw new RuntimeException();
+        if (randomInteger > 15) throw new CustomUncheckedException();
         return Status.SUCCESS;
     }
 

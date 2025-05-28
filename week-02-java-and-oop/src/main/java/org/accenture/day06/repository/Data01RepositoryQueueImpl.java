@@ -26,7 +26,4 @@ public class Data01RepositoryQueueImpl implements Data01Repository {
         return null;
     }
 
-    public Data01 retrieveHeadElement() {
-        return data01Queue.element();
-    }
 }

@@ -3,10 +3,10 @@ package org.accenture.day06.service;
 import org.accenture.day06.enums.Status;
 import org.accenture.day06.utility.RestTemplate;
 
-public class CallingAnotherService {
+public class RequestService {
     private RestTemplate restTemplate;
 
-    public CallingAnotherService() {
+    public RequestService() {
         this.restTemplate = new RestTemplate();
     }
 

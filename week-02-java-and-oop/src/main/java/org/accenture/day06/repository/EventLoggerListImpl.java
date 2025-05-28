@@ -10,7 +10,7 @@ import java.util.List;
 
 public class EventLoggerListImpl implements EventLogger {
 
-    private List<String> listDatabase;
+    private final List<String> listDatabase;
 
     public EventLoggerListImpl() {
         listDatabase = new ArrayList<>();
