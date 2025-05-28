@@ -8,7 +8,7 @@ public class ServiceRequestController {
     public ServiceRequestController(RequestService requestService) {
         this.requestService = requestService;
     }
-    public Status getRequest() {
-        return requestService.makeRequest();
+    public Status getRequest(Integer input) {
+        return requestService.makeRequest(input);
     }
 }

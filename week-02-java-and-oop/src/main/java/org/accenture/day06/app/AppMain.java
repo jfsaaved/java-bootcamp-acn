@@ -1,16 +1,19 @@
 package org.accenture.day06.app;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import org.accenture.day06.enums.Status;
 import org.accenture.day06.controller.AggregatedDataController;
 import org.accenture.day06.controller.ServiceRequestController;
+import org.accenture.day06.enums.Status;
 import org.accenture.day06.model.Data01;
 import org.accenture.day06.model.Data02;
 import org.accenture.day06.repository.Data01RepositoryHashImpl;
 import org.accenture.day06.repository.Data01RepositoryQueueImpl;
 import org.accenture.day06.repository.Data02RepositoryHashImpl;
 import org.accenture.day06.repository.EventLoggerListImpl;
+import org.accenture.day06.service.Data01Service;
+import org.accenture.day06.service.Data02Service;
 import org.accenture.day06.service.RequestService;
+import org.accenture.day06.utility.RestTemplate;
 
 import java.time.LocalDate;
 import java.util.UUID;
@@ -63,10 +66,12 @@ public class AppMain {
         //  Follow-up: Inject this Event Logger implementation to AggregatedDataController and re-run
         EventLoggerListImpl eventLogger = new EventLoggerListImpl();
 
-        // Our Controller
-        // Params: (Data01Repository, Data02Repository, EventLogger)
+        // Our Services and Controller
+        // We can replace and plug in different database interfaces
+        Data01Service data01Service = new Data01Service(database01Data01);
+        Data02Service data02Service = new Data02Service(database01Data02);
         AggregatedDataController aggregatedDataController =
-                new AggregatedDataController(database01Data01, database01Data02, eventLogger);
+                new AggregatedDataController(data01Service, data02Service, eventLogger);
 
         simulateApplicationRun(aggregatedDataController);
 
@@ -75,13 +80,13 @@ public class AppMain {
 
         // ************************************************************************
 
-        RequestService requestService = new RequestService();
+        RequestService requestService = new RequestService(new RestTemplate());
         ServiceRequestController serviceRequestController = new ServiceRequestController(requestService);
 
         for (int i = 0; i < 100; i++) {
-            Status result = serviceRequestController.getRequest();
+            Status result = serviceRequestController.getRequest(3);
             System.out.println("Scenario 02: Request Made - " + result);
-            Thread.sleep(500);
+            Thread.sleep(100);
         }
     }
 }

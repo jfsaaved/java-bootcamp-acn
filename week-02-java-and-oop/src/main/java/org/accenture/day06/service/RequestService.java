@@ -4,14 +4,15 @@ import org.accenture.day06.enums.Status;
 import org.accenture.day06.utility.RestTemplate;
 
 public class RequestService {
-    private RestTemplate restTemplate;
+    private final RestTemplate restTemplate;
 
-    public RequestService() {
-        this.restTemplate = new RestTemplate();
+    public RequestService(RestTemplate restTemplate) {
+        this.restTemplate = restTemplate;
     }
 
     // TODO Handle exception here so that we return Status.ERROR on RuntimeException
-    public Status makeRequest() {
-        return restTemplate.getRequest();
+    //  Use RequestServiceTest.java to test
+    public Status makeRequest(Integer input) {
+        return restTemplate.getRequest(input);
     }
 }
