@@ -22,7 +22,7 @@ public class Data01Service {
         // TODO Create FunctionalInterface and create lambda
 
         // TODO Implement check if positive via imperative vs higher-order function
-        
+
         List<Integer> reusableList = RandomGenerator.generateRandomList(10, 100);
         Integer calculatedValue = calculateIfBelowOrEqual50(reusableList);
         Integer anotherCalculatedValue = calculateIfAbove50(reusableList);
