@@ -29,7 +29,7 @@ public class AppMain {
         System.out.println(" =========|_|==============|___/=/_/_/_/");
         System.out.println(" :: Spring Boot :: (mock version)");
 
-        Thread.sleep(400); // simulate delay
+        Thread.sleep(400);
 
         Logger log = new Logger(AppMain.class);
         log.info("Starting DemoApplication using Java 17.0.9");
@@ -42,7 +42,6 @@ public class AppMain {
     }
 
     private static void simulateRun() throws InterruptedException {
-        // Dependency injection
         MessageService messageService = new MessageServiceImpl();
         Data01Service data01Service = new Data01Service(messageService);
         Data01Controller data01Controller = new Data01Controller(data01Service);
