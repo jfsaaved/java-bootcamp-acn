@@ -40,11 +40,11 @@ Hands-on idea:
 ## Week 2 – Java & OOP
 
 | Day | Subject                                                                  | Link To Worksheet                                                                                                                |
-| --- | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| --- |--------------------------------------------------------------------------| -------------------------------------------------------------------------------------------------------------------------------- |
 | Tue | **Overview OOP (Encapsulation, Inheritance, Polymorphism, Abstraction)** | [Day 05 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-02-java-and-oop/src/main/java/org/accenture/day05) |
 | Wed | **Exceptions and Error Handling**<br><br>                                | [Day 06 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-02-java-and-oop/src/main/java/org/accenture/day06) |
-| Thu | **Lambda & Streams Pt. 1**<br>                                           |                                                                                                                                  |
-| Fri | **Lambda & Streams Pt. 2**                                               |                                                                                                                                  |
+| Thu | **Functional Interface, Lambda, and Higher-Order Functions**<br>         |                                                                                                                                  |
+| Fri | **Streams**                                                              |                                                                                                                                  |
 
 ---
 ## Week 3 – Java, Spring Boot, and Backend Pt. 1
