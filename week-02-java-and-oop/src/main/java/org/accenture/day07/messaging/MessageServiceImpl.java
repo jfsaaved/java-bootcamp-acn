@@ -6,7 +6,6 @@ import org.accenture.day07.model.Message;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.IntPredicate;
 
 import static org.accenture.day07.config.AppConfig.OBJECT_MAPPER;
 
