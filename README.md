@@ -20,14 +20,7 @@ Discuss the subject of the day / go through the code package
 Open-mic technical / code presentations - present anything
 
 ---
-## Hands-On Format: Test-Driven Development (TDD)
-TDD is a development process where you write tests _before_ you write the actual code.
-
-Hands-on idea:
-- Read unit tests and use hands-on worksheet class to make the tests pass
-
----
-## Week 1 – Introduction to Coding (Language-Agnostic Concepts with Java)
+## Week 1 – Language-Agnostic Fundamentals with Java
 
 | Day | Subject                                                                              | Link                                                                                                                                       |
 | --- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -37,35 +30,35 @@ Hands-on idea:
 | Fri | **Data, Basic Data Structures, and Algorithms**                                      | [Day 04 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-01-introduction-to-coding/src/main/java/org/accenture/day04) |
 
 ---
-## Week 2 – Java & OOP
+## Week 2 – Java & Backend Introduction
 
 | Day | Subject                                                                  | Link To Worksheet                                                                                                                |
 | --- |--------------------------------------------------------------------------| -------------------------------------------------------------------------------------------------------------------------------- |
 | Tue | **Overview OOP (Encapsulation, Inheritance, Polymorphism, Abstraction)** | [Day 05 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-02-java-and-oop/src/main/java/org/accenture/day05) |
-| Wed | **Exceptions and Error Handling**<br><br>                                | [Day 06 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-02-java-and-oop/src/main/java/org/accenture/day06) |
-| Thu | **Functional Interface, Lambda, and Higher-Order Functions**<br>         |                                                                                                                                  |
-| Fri | **Streams**                                                              |                                                                                                                                  |
+| Wed | **Exceptions and Error Handling**<br>                                    | [Day 06 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-02-java-and-oop/src/main/java/org/accenture/day06) |
+| Thu | **Functional Interface, Lambda, and Higher-Order Functions**<br>         | [Day 07 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-02-java-and-oop/src/main/java/org/accenture/day07) |
+| Fri | **Streams with Java 8+**                                                 | [Day 08 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-02-java-and-oop/src/main/java/org/accenture/day08) |
 
 ---
-## Week 3 – Java, Spring Boot, and Backend Pt. 1
+## Week 3 – Java, Spring Boot, & Backend Pt. 1
 
-| Day | Subject                                                                                 | Link To Worksheet |
-| --- | --------------------------------------------------------------------------------------- | ----------------- |
-| Mon | **Architecture Overview (Microservice vs. Monolith), Frameworks, and Build Management** |                   |
-| Tue | **Inversion of Control and Dependency Injection**                                       |                   |
-| Wed | **Bean Creation**                                                                       |                   |
-| Thu | **Environments, Environment Variables and Property Injection**                          |                   |
-| Fri | **Creating RESTful API, HTTP methods, Controller-Service-Repository pattern**           |                   |
+| Day | Subject                                         | Link To Worksheet |
+| --- | ----------------------------------------------- | ----------------- |
+| Mon | **First Spring Boot Application - Hello World** |                   |
+| Tue | **Adding POST Request and In-Memory DB**        |                   |
+| Wed | ???                                             |                   |
+| Thu | ???                                             |                   |
+| Fri | ???                                             |                   |
 
 ---
-## Week 4 – Java, Spring Boot, and Backend Pt. 2
+## Week 4 – Java, Spring Boot, & Backend Pt. 2
 
-| Day | Subject                               | Link To Worksheet |
-| --- | ------------------------------------- | ----------------- |
-| Mon | **Docker and Testcontainers**         |                   |
-| Tue | **Spring Data and Database Services** |                   |
-| Wed | **Calling RESTful API**               |                   |
-| Thu | **Spring Security**                   |                   |
-| Fri | **Final Demo and Bootcamp Closing**   |                   |
+| Day | Subject              | Link To Worksheet |
+| --- | -------------------- | ----------------- |
+| Mon | ???                  |                   |
+| Tue | ???                  |                   |
+| Wed | ???                  |                   |
+| Thu | ???                  |                   |
+| Fri | **Bootcamp Closing** |                   |
 
 ---
