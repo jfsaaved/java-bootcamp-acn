@@ -89,7 +89,7 @@ spring:
 Open browser: [http://localhost:8080/h2-console](http://localhost:8080/h2-console) with `jdbc:h2:mem:testdb` and `sa` as username and leave password blank.
 
 ---
-# 2. Add Dependencies
+# 2. Add Dependencies (skip if using H2)
 ```xml
 <!-- Spring Data JPA: Provides JpaRepository, entity management, Hibernate integration, etc. -->
 <dependency>  
@@ -107,7 +107,7 @@ Open browser: [http://localhost:8080/h2-console](http://localhost:8080/h2-consol
 ```
 
 ---
-# 3. Connect Application to PostgreSQL
+# 3. Connect Application to PostgreSQL (skip if using H2)
 Spring Boot manages these internally, so we don't have to worry about it too much.
 
 Example for **Spring Boot** (`application.yml`)
@@ -150,7 +150,7 @@ Steps to refactor our application to use real local DB with Spring Boot Data JPA
 	Inject your `Repository` and use its methods like `save()`, `findById()`, and `deleteById()` instead
 
 ---
-# Connecting to DB
+# Connecting to DB (skip if using H2)
 
 ### Connect from Host Machine
 If Postgres is exposed, you can also connect from your host:
