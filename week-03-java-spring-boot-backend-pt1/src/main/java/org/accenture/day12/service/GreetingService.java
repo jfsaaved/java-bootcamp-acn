@@ -29,9 +29,10 @@ public class GreetingService {
     private ObjectMapper objectMapper;
 
     @PostConstruct
-    public void init() {
+    private void init() {
         log.info("Populating InMemory DB...");
-        try (InputStream is = getClass().getClassLoader().getResourceAsStream(GREETING_FILE_NAME)) {
+        try {
+            InputStream is = getClass().getClassLoader().getResourceAsStream(GREETING_FILE_NAME);
             if (is == null) {
                 log.error("Could not find {}", GREETING_FILE_NAME);
                 return;
@@ -43,7 +44,6 @@ public class GreetingService {
                 Greeting savedGreeting = greetingRepository.save(greeting);
                 log.info("Loaded Greeting Object ID: {}", savedGreeting.getId());
             });
-
         } catch (Exception e) {
             log.error("Failed to load {}", GREETING_FILE_NAME, e);
         }
