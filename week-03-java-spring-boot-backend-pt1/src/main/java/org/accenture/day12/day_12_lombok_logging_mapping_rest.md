@@ -42,7 +42,7 @@ public class Greeting {
 
 ---
 # SLF4J Logging
-SLF4J is a simple logging API in Java that lets you write log messages in your code without worrying about which logging library (like Logback or Log4j) is actually used behind the scenes.
+SLF4J is a simple logging API in Java that lets you write log messages in your code.
 
 | Level   | What it represents                                 |
 | ------- | -------------------------------------------------- |
