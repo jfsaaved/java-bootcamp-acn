@@ -39,14 +39,16 @@ public class GreetingService {
             List<Greeting> greetings = objectMapper.readValue(is, new TypeReference<>() {
             });
             greetings.forEach(greeting -> {
-                log.info("Loaded greeting: {}", greeting);
                 greeting.setUpdatedAt(Instant.now());
-                greetingRepository.save(greeting);
+                Greeting savedGreeting = greetingRepository.save(greeting);
+                log.info("Loaded Greeting Object ID: {}", savedGreeting.getId());
             });
 
         } catch (Exception e) {
             log.error("Failed to load {}", GREETING_FILE_NAME, e);
         }
+
+        log.info("Total Greetings saved: {}", greetingRepository.findAll().size());
     }
 
     public GreetingService(GreetingRepository greetingRepository, GreetingMapperManual greetingMapper) {
