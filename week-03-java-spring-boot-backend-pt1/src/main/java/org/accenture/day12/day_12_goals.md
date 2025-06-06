@@ -1,0 +1,2 @@
+- Follow the learning guide in `day_12_lombok_logging_mapping_rest.md`
+- Solve 1-2 interview style problems (LeetCode, HackerRank, etc.)
