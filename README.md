@@ -42,13 +42,12 @@ Open-mic technical / code presentations - present anything
 ---
 ## Week 3 – Java, Spring Boot, & Backend Pt. 1
 
-| Day | Subject                                         | Link To Worksheet |
-| --- | ----------------------------------------------- | ----------------- |
-| Mon | **First Spring Boot Application - Hello World** |                   |
-| Tue | **Adding POST Request and In-Memory DB**        |                   |
-| Wed | ???                                             |                   |
-| Thu | ???                                             |                   |
-| Fri | ???                                             |                   |
+| Day | Subject                                         | Link To Worksheet                                                                                                                                |
+| --- | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Mon | **First Spring Boot Application - Hello World** | [Day 09 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-03-java-spring-boot-backend-pt1/src/main/java/org/accenture/day09) |
+| Tue | **CRUD Application**                            | [Day 10 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-03-java-spring-boot-backend-pt1/src/main/java/org/accenture/day10) |
+| Wed | **DB Connection (In-Memory and PostgreSQL)**    | [Day 11 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-03-java-spring-boot-backend-pt1/src/main/java/org/accenture/day11) |
+| Fri | **Lombok, SLF4J, MapStruct, and RESTful**       | [Day 12 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-03-java-spring-boot-backend-pt1/src/main/java/org/accenture/day12) |
 
 ---
 ## Week 4 – Java, Spring Boot, & Backend Pt. 2
