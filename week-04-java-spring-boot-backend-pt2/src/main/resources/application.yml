@@ -1,0 +1,6 @@
+server:
+  port: 8081
+
+greetings:
+  api:
+    url: http://localhost:8080/greetings

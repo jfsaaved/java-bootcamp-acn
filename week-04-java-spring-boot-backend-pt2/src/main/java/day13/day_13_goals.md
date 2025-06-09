@@ -1,0 +1,2 @@
+- Follow the learning guide in `day_13_resttemplate.md`
+- Create unit tests for `GreetingAggregatorService.java` class

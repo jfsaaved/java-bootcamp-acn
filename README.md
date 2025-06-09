@@ -52,12 +52,12 @@ Open-mic technical / code presentations - present anything
 ---
 ## Week 4 – Java, Spring Boot, & Backend Pt. 2
 
-| Day | Subject              | Link To Worksheet |
-| --- | -------------------- | ----------------- |
-| Mon | ???                  |                   |
-| Tue | ???                  |                   |
-| Wed | ???                  |                   |
-| Thu | ???                  |                   |
-| Fri | **Bootcamp Closing** |                   |
+| Day | Subject                         | Link To Worksheet |
+| --- | ------------------------------- | ----------------- |
+| Mon | **RestTemplate & More Streams** |                   |
+| Tue | Distributed Tracing             |                   |
+| Wed | Security                        |                   |
+| Thu | WebFlux                         |                   |
+| Fri | **Bootcamp Closing**            |                   |
 
 ---
