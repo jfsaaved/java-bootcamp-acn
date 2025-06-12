@@ -8,7 +8,7 @@ We are going to simulate OAuth flow in a backend environment. No frontend, no lo
 # OAuth2 Authorization Framework
 OAuth2 is an authorization framework that defines a protocol allowing clients to obtain **permission(s)** to access **protected resources** over HTTP using an `access_token`. These **resources** can be APIs, microservices, or any system component requiring secure access. 
 ##### **Protocol Flow**
-![images/oauth2.png](images/oauth2.png)
+![oauth2.png](oauth2.png)
 
 ---
 
