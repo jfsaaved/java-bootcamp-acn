@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+keycloak:
+  client-id: my-client
+  client-secret: yyaSfW8miE6HrRdCP4S3b5FyDDTgjxyT
+  token-uri: http://localhost:9000/realms/my-realm/protocol/openid-connect/token
+
+resource-server:
+  url: http://localhost:8082/protected/
