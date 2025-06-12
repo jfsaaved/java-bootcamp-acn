@@ -52,12 +52,11 @@ Open-mic technical / code presentations - present anything
 ---
 ## Week 4 – Java, Spring Boot, & Backend Pt. 2
 
-| Day | Subject                         | Link To Worksheet |
-| --- |---------------------------------| ----------------- |
-| Mon | **RestTemplate & More Streams** |                   |
-| Tue | **JUnit and Mockito**           |                   |
-| Wed | ???                             |                   |
-| Thu | ???                             |                   |
-| Fri | **Bootcamp Closing**            |                   |
+| Day | Subject                         | Link To Worksheet                                                                                                                  |
+| --- | ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Mon | **RestTemplate & More Streams** | [Day 13 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-04-java-spring-boot-backend-pt2/src/main/java/day13) |
+| Tue | **JUnit and Mockito**           | [Day 14 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-04-java-spring-boot-backend-pt2/src/main/java/day14) |
+| Thu | **Docker & OAuth Protocol**     | [Day 15 Package](https://github.com/jfsaaved/java-bootcamp-acn/tree/main/week-04-java-spring-boot-backend-pt2/src/main/java/day15) |
+| Fri | **Bootcamp Closing**            |                                                                                                                                    |
 
 ---
