@@ -43,7 +43,7 @@ public class Day01WorksheetTests {
 
     @Test
     public void Return_remainder() {
-        assertEquals(1, Day01Worksheet.modulo(5,5));
+        assertEquals(0, Day01Worksheet.modulo(5,5));
         assertEquals(2, Day01Worksheet.modulo(6,3));
     }
 
