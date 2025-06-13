@@ -1,13 +1,11 @@
-# Java Bootcamp Accenture
+# Java & Spring Boot Learning Repository (Accenture)
 ## Information
-- Repository that contains a lot of Java stuff for learning purposes
-- AM & PM Sessions for 4 weeks
+- A learning repository that contains several Java & Spring Boot components for learning purposes (see the topics below)
+- Originally created for a Java & Spring Boot bootcamp previously held in Accenture North American (2025) with - AM & PM Sessions for 4 weeks
 ## Goals / Benefits
-- Get an experienced-backed mind map of the Java and backend development landscape
-- Java support group - read and write code with others
-- Repository with multiple examples, resources, and exercises
-- Feel prepared for Java roles
-- Place to practice technical / code walkthroughs
+- Get an experienced-backed road map of the Java and backend development landscape
+- Can be re-used as a template for similar bootcamp / personal learning roadmap
+- Feel prepared for Java roles and interviews
 
 ---
 ## AM Meeting Structure (1 hour)
